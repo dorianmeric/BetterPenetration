@@ -234,7 +234,7 @@ namespace KK_BetterPenetration
             if (!inHScene || _nextAinmInfo == null || _nextAinmInfo.pathFemaleBase.file == null)
                 return;
 
-            Console.WriteLine($"_nextAinmInfo {_nextAinmInfo.pathFemaleBase.file}");
+            Console.WriteLine($"KK_BetterPenetration.HSceneProc_PreChangeAnimator(). _nextAinmInfo {_nextAinmInfo.pathFemaleBase.file}");
 
             CoreGame.OnChangeAnimation(_nextAinmInfo.pathFemaleBase.file);
         }
